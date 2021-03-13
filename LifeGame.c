@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//Conway's Game of Life
 int main(){
 	int matriz[15][15], aux[15][15];
 	int x, y,cont,cont2,esc;
