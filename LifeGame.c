@@ -41,7 +41,7 @@ int main(){
 		printf("\n\n(1)Add coordinate\n(2)Run\n");
 		scanf("%i",&esc);
 		if(esc == 1){
-			printf("Type coordinates (X Y) withou parentheses:\n");
+			printf("Type coordinates (X Y) without parentheses:\n");
 			scanf("%i %i", &val1, &val2);
 			matriz[val1][val2] = 1;
 			aux[val1][val2] = 1;
